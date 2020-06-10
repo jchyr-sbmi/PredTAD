@@ -1,0 +1,8 @@
+file_name	study	target	treatment
+ENCFF242EJE	ENCSR000BVO	JUND_T47D	none
+ENCFF716CEW	ENCSR000BQD	ESR1_bisA_T47D	100 nM bisphenol A for 30 minutes
+ENCFF885ILM	ENCSR000BNO	CTCF_dmso_T47D	0.02% dimethyl sulfoxide for 1 hour
+ENCFF370FVF	ENCSR000BMX	GATA3_dmso_T47D	0.02% dimethyl sulfoxide for 1 hour
+ENCFF593GDN	ENCSR000BLL	ESR1_dmso_T47D	0.02% dimethyl sulfoxide for 1 hour
+ENCFF544QLN	ENCSR000BKY	FOXA1_dmso_T47D	0.02% dimethyl sulfoxide for 1 hour
+ENCFF198ZBJ	ENCSR000BJS	ESR1_genistein_T47D	100 nM genistein for 1 hour
