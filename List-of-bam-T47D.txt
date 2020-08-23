@@ -1,3 +1,0 @@
-file_name	study	target	treatment
-ENCFF426MYS	ENCSR000BLM	EP300_dmso_T47D	0.02% dimethyl sulfoxide for 1 hour
-ENCFF234TXK	ENCSR000BKN	ESR1_e2_T47D	10 nM estradiol for 1 hour
