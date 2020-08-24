@@ -1,6 +1,0 @@
-GBM_model_R_1591379953525_1	MCF7	1,8,19	All featues (no chr)	ntrees-500	5-folds	5-foldsAUC 0.7835	TestAUC 0.7338, 0.75172, and 0.6081 
-GBM_model_R_1591383655864_2512	MCF7	70/30 tr.RData	Top14 (no chr)	ntrees=500	5-folds	5-foldAUC 0.7537	TestAUC 0.7615
-GBM_model_R_1591383655864_7482	MCF7	70/30 tr.RData	Top15 (with chr)	ntrees=500	5-folds 5-foldAUC 0.7860	TestAUC0.8036
-GBM_model_R_1591383655864_9975	MCF7	70/30 tr.RData	Top10 (with chr)	ntrees=500	5-folds	5-foldAUC 0.7860	TestAUC 0.8034
-GBM_model_R_1591383655864_11903 MCF7	70/30 tr.RData	Top5 (with chr)	ntrees=500	5-folds	5-foldAUC 0.7101	TestAUC 0.7236
-
