@@ -1,6 +1,9 @@
-# PredTAD Instructions
+# PredTAD
+
+## Getting Started
 
 Dependencies required for PredTAD
+
 Rpackages:
 - data.table 
 - GenomicRanges
@@ -15,6 +18,10 @@ Rpackages:
 - stringr
 - tictoc
 - tidyverse
+
+## List of files
+
+
 
 ## How to run PredTAD and process data from other cell lines
 
@@ -35,3 +42,6 @@ The entire genome is binned into 10 kb regions. Sample region in the telomere an
 
 ### Step 4: PredTAD model
 Gradient Boosting Machine (GBM) is used as the classifier for PredTAD. The samples of this model are 10 kb genomic regions. The input features are genomic and epigenomic features, such as histone modification, transcription factors, number of TSS, etc. The output is whether or not the region is a TAD boundary or non-TAD boundary. Java’s H2O platform was used to run PredTAD. 
+
+## How to test new samples using our trained model
+You can load GBM_model_R_1597829376110_1 for trained model, then test with new data. New data for other cell lines and samples need to be processed in the same manner as the trained data (see above).
