@@ -21,7 +21,18 @@ Rpackages:
 
 ## List of files
 
+### Codes
+- 1_gen_pre_info_08132020.R
+- 2_sample_preparation.R
+- 3_predTAD_model.R
+- 4_deg_analysis.R
+- 5_feature_distribution_preprocessing.R
+- 6_feature_distribution_execution.R
 
+### Data and Results
+- List of ChIPseq data
+- Trained models
+- Top 5, 10, and 15 features
 
 ## How to run PredTAD and process data from other cell lines
 
