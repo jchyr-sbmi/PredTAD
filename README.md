@@ -57,11 +57,6 @@ See Codes folder for PredTAD codes and README_codes.md for description of each f
 ### Data and Results
 In the Data folder, you will find a curated list of epigenomic features, including histone modification, methylation, and ATACseq data. 
 - List of ChIPseq data
-- Trained models
-  - GBM_model_R_1591383655864_1
-  - GBM_model_R_1591383655864_2512
-  - GBM_model_R_1591383655864_7482
-  - GBM_model_R_1591383655864_9975
-  - GBM_model_R_1591383655864_11903
+- Trained models with description file
 - Top 5, 10, and 15 features plots
 
