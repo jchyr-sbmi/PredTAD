@@ -21,7 +21,9 @@ Rpackages:
 
 ## List of files
 
-### Codes
+### Codes 
+See Codes folder for PredTAD codes and README_codes.md for description of each file.
+- README_codes.md
 - 1_gen_pre_info_08132020.R
 - 2_sample_preparation.R
 - 3_predTAD_model.R
@@ -30,15 +32,21 @@ Rpackages:
 - 6_feature_distribution_execution.R
 
 ### Data and Results
+In the Data folder, you will find a curated list of epigenomic features, including histone modification, methylation, and ATACseq data. 
 - List of ChIPseq data
 - Trained models
-- Top 5, 10, and 15 features
+  - GBM_model_R_1591383655864_1
+  - GBM_model_R_1591383655864_2512
+  - GBM_model_R_1591383655864_7482
+  - GBM_model_R_1591383655864_9975
+  - GBM_model_R_1591383655864_11903
+- Top 5, 10, and 15 features plots
 
 ## How to run PredTAD and process data from other cell lines
 
 ### Step 1: Data Curation
 Create a folder for all cell-specific Hi-C, ChIPseq, histone modification, and methylation data. 
-You may our curated data for non-cell-line specific genomic data, such as distance from centromere (relative chromosomal location), gene density (defined by number of TSS), and number of transcription factor binding sites of 161 transcription factors.
+You may use our curated data for non-cell-line specific genomic data, such as distance from centromere (relative chromosomal location), gene density (defined by number of TSS), and number of transcription factor binding sites of 161 transcription factors.
 Download, obtain, or generate narrowPeaks bed files for 8 histone modification proteins and 12 transcription factors as listed in List-of-Bed_narrowPeaks files. Create a .txt file with at minimum two columns: file_name and target name. 
 Download, obtain, or generate Hi-C data for your cell line. Processed Hi-C data with identified or calculated TAD or insulated regions can also be used. You may use the 3D: Genome Browser to attain TADs for your cell line. 
 
